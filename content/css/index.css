@@ -1,0 +1,293 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    font-family: "Plus Jakarta Sans";
+}
+
+/* MAIN HEADER SECTION */
+
+header {
+    margin-left: 122px;
+    margin-right: 122px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 72px;
+}
+
+#rj-media-logo {
+    width: 28px;
+    height: 28px;
+}
+
+header img {
+    align-self: center;
+}
+
+header input {
+    margin-left: 30px;
+    margin-right: 40px;
+    height: 48px;
+    width: 100%;
+    border: none;
+    background-color: #F0F1F2;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+
+#rj-media {
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: "Plus Jakarta Sans";
+    width: 90px;
+    
+}
+
+#south-africa {
+    font-family: "Plus Jakarta Sans";
+    color: #9A9EA6;
+    min-width: 81px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 5px 0 5px;
+}
+
+.location {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* SECONDARY HEADER SECTION */
+
+.drop-down-menus-header {
+    margin-left: 122px;
+    margin-right: 122px;
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    display: flex;
+    margin-top: 4px;
+    background-color: #DFDFE0;
+    border: none;
+    height: 1px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+#drop-list-menus-header {
+    
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-content:flex-start;
+    width: 100%;
+    min-width: 1000px;
+
+}
+
+#drop-list-menus-header li {
+    display: flex;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #9A9EA6;
+    font-weight: 200;
+}
+
+#drop-list-menus-header img {
+    margin-left: 10px;
+}
+
+.icons {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 120px;
+    
+
+}
+
+.icons img {
+    margin-top: 5px;
+    padding-left: 5px;
+
+}
+
+/* OPENING SECTION */
+
+.landing-page-start {
+    margin-top: 90px;
+    margin-left: 122px;
+    margin-right: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-card {
+    margin-right: 200px;
+}
+
+.left-card .landing-paragraph {
+    width: 500px;
+    max-width: 500px;
+    font-weight: 300;
+    color: #5E6282;
+}
+
+.landing-heading {
+    font-weight: 800;
+    font-size: 76px;
+    margin-bottom: 40px;
+    color: #14183E;
+}
+
+.left-card button {
+    margin-top: 60px;
+    background-color: #4475F2;
+    color: #F0F1F2;
+    border: none;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ADVERTISING STRATEGY */
+
+.advertising-strategy {
+    margin-left: 122px;
+    margin-right: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advertising-left-card {
+    width: 585px;
+    
+}
+
+.service-heading {
+    font-size: 58px;
+    font-weight: 800;
+    color: #14183E;
+
+}
+
+.mini-heading {
+    color:#4475F2;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+.points {
+    display: flex;
+    align-items:flex-start;
+}
+
+.points button {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-right: 30px;
+    background-color:#4475F2;
+    color:#FFFFFF;
+    border: none;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+#voila button {
+    width: 50px;
+}
+
+.service-subheading {
+    color:#14183E;
+    margin-bottom: 40px;
+
+}
+
+.p-heading {
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.p-content {
+    margin-top: 0px;
+    color: #5E6282;
+    font-size: 16px;
+}
+
+/* ADVERTISING STRATEGY CARD */
+
+.advertising-right-card {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#4475F2;
+    width: 400px;
+    height: 430px;
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+
+.img-card-container {
+    display: flex;
+    width: 400px;
+    height: 430px;
+    background-color:#FFFFFF;
+    border-radius: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-card-container img {
+    align-self: center;
+    justify-content: center;
+    
+}
+
+#advertising-card {
+    color: #14183E;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+#advertising-content-card {
+    color:#84829A;
+    font-weight: 200;
+    margin-bottom: 30px;
+    width: 172px;
+
+}
+
+#register {
+    background-color: #4475F2;
+    border: none;
+    color: #FFFFFF;
+    height: 38px;
+    width: 170px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+
+}
+
+#register:hover {
+    background-color: #14183E;
+}
